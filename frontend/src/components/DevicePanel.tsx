@@ -455,7 +455,7 @@ export function DevicePanel({
         {!areTabsVisible && (
           <button
             onClick={toggleTabsVisibility}
-            className="absolute top-2 right-2 z-10 w-8 h-8 bg-blue-500 hover:bg-blue-600 text-white rounded-full shadow-lg transition-all duration-300 flex items-center justify-center"
+            className="absolute top-2 right-2 z-10 w-8 h-8 bg-gray-500 hover:bg-blue-600 text-white rounded-full shadow-lg transition-all duration-300 flex items-center justify-center opacity-20 hover:opacity-100 cursor-pointer"
             title="显示选项卡"
           >
             <svg
